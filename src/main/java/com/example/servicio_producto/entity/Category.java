@@ -9,6 +9,7 @@ import java.io.Serializable;
 
 @Getter
 @Setter
+
 @Entity
 @Table(name = "categories")
 @JsonIgnoreProperties({"picture"})

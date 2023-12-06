@@ -8,4 +8,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 @RepositoryRestResource(path = "product")
 public interface ProductRepository extends JpaRepository<Product, Integer> {
+
 }
