@@ -47,4 +47,8 @@ public class Product implements Serializable {
     @Column(name = "discontinued", nullable = false)
     private Boolean discontinued = false;
 
+
+    ////Para ver RoundRobin
+    @Transient
+    private int port;
 }
